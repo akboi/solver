@@ -1,0 +1,36 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'watch' ]
+2 info using npm@4.1.2
+3 info using node@v7.7.1
+4 verbose run-script [ 'prewatch', 'watch', 'postwatch' ]
+5 info lifecycle solver@1.0.0~prewatch: solver@1.0.0
+6 silly lifecycle solver@1.0.0~prewatch: no script for prewatch, continuing
+7 info lifecycle solver@1.0.0~watch: solver@1.0.0
+8 verbose lifecycle solver@1.0.0~watch: unsafe-perm in lifecycle true
+9 verbose lifecycle solver@1.0.0~watch: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\Users\owner\Desktop\solver\node_modules\.bin;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\DMIX;C:\Program Files\Hewlett-Packard\Drive Encryption\;C:\Program Files\ActivIdentity\ActivClient\;C:\Program Files (x86)\ActivIdentity\ActivClient\;C:\Oracle\instantclient_12_1;C:\bin;C:\Python34;C:\Program Files\nodejs\;C:\Program Files\TortoiseGit\bin;C:\Program Files\Git\cmd;C:\Users\owner\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\owner\AppData\Local\Programs\Python\Python36-32\;C:\Program Files\ISC BIND 9\bin;C:\Ruby23-x64\bin;C:\Users\owner\AppData\Local\Programs\Python\Launcher\;C:\Users\owner\AppData\Local\atom\bin;C:\Users\owner\AppData\Roaming\npm;C:\Program Files (x86)\Microsoft VS Code\bin
+10 verbose lifecycle solver@1.0.0~watch: CWD: C:\Users\owner\Desktop\solver
+11 silly lifecycle solver@1.0.0~watch: Args: [ '/d /s /c',
+11 silly lifecycle   'watchify src/main.js -o dist/app.js -t [ babelify --presets [ es2015 react ] ] -v' ]
+12 verbose stack Error: kill ENOSYS
+12 verbose stack     at exports._errnoException (util.js:1029:11)
+12 verbose stack     at process.kill (internal/process.js:188:13)
+12 verbose stack     at process.listener (C:\Program Files\nodejs\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:95:15)
+12 verbose stack     at emitNone (events.js:86:13)
+12 verbose stack     at process.emit (events.js:188:7)
+12 verbose stack     at processEmit (C:\Program Files\nodejs\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:155:32)
+12 verbose stack     at Signal.wrap.onsignal (internal/process.js:215:44)
+13 verbose cwd C:\Users\owner\Desktop\solver
+14 error Windows_NT 6.1.7601
+15 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "run" "watch"
+16 error node v7.7.1
+17 error npm  v4.1.2
+18 error code ENOSYS
+19 error errno ENOSYS
+20 error syscall kill
+21 error kill ENOSYS
+22 error If you need help, you may report this error at:
+22 error     <https://github.com/npm/npm/issues>
+23 verbose exit [ 1, true ]
